@@ -1,0 +1,46 @@
+html, body, #root {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+#mapbox-map, #mapboxgl-map, #mapbox-custom-map, #leaflet-map, #openlayer-map {
+  height: 300px;
+}
+
+#mapbox-map canvas, #mapbox-custom-map canvas {
+  top: 0;
+  left: 0;
+}
+
+.home {
+  height: 100%;
+  width: 100%;
+}
+.home .mapboxgl-map {
+  height: 100%;
+}
